@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 // database
-require('./models/User.model')
+require('./models/model')
 
 // middlewares
 app.use(express.json());
